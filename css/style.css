@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #443e3e;
+  padding: 10px 20px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 24px;
+  background-color: #3498db;
+  color: #808080;
+  padding: 8px 12px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.right-section .nav-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.right-section .nav-items li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.right-section .nav-items li a {
+  text-decoration: none;
+  color: #71bff3;
+  font-size: 20px;
+}
+
+.hero-banner {
+  background-image: url('../images/02-hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.text {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #443e3e;
+  color: white;
+  padding: 10px;
+}
+
+.text h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.about-container {
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.about-title {
+  color: #808080;
+  border-right: 7px solid #ccc;
+  padding-right: 20px;
+  float: left;
+  margin: 0 1.5%;
+  margin-left: 8%;
+  font-size: 36px;
+  width: 15%;
+}
+
+.about-content {
+  width: 100%;
+  font-size: 20px;
+}
+
+.work-container {
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.work-title {
+  color: #808080;
+  border-right: 7px solid #ccc;
+  padding-right: 20px;
+  float: left;
+  margin: 0 1.5%;
+  margin-left: 8%;
+  font-size: 36px;
+  width: 15%;
+}
+
+.work-content {
+  width: 100%;
+  font-size: 20px;
+}
+
+.contact-container {
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.contact-title {
+  color: #808080;
+  border-right: 7px solid #ccc;
+  padding-right: 20px;
+  float: left;
+  margin: 0 1.5%;
+  margin-left: 8%;
+  font-size: 36px;
+  width: 15%;
+}
+
+.contact-content {
+  width: 100%;
+  font-size: 20px;
+}
